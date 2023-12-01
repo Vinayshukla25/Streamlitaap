@@ -16,7 +16,7 @@ st.set_page_config(
 
 @st.cache_data()
 def load_data():
-    url='data/Top_rated_movies1.csv'
+    url='Data/Top_rated_movies1.csv'
     df=pd.read_csv(url,parse_dates=['release_date'])
     return df
 
